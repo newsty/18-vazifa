@@ -1,0 +1,119 @@
+.footer {
+  width: 100%;
+  height: 300px;
+  &-list {
+    margin-left: -3%;
+    width: 100%;
+    height: 80%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &-item1 {
+      width: 20%;
+      height: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items:center;
+      flex-direction: column;
+
+      &-avatar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+      }
+    }
+    &-item2 {
+      width: 24%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      &-text {
+        width: 100%;
+        height: 70%;
+      }
+    }
+    &-item3 {
+        width: 24%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+      &-text{
+        margin-left: 0%;
+
+      }
+      &-input{
+        margin-left: 0%;
+
+        width: 310px;
+        height: 42px;
+        border: 1px solid #BCD0E5
+      }
+      &-btn{
+        width: 131px;
+        height: 39px;
+        border: none;
+        border-radius: 5px;
+        background: #02897A;
+            color:white;
+        margin-left: 0%;
+
+      }
+    }
+  }
+  &-text{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+@media screen and (max-width:500px){
+    .footer{
+        width: 100%;
+        height: 100%;
+        &-list{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+
+            &-item1{
+                width: 100%;
+                height: 100%;
+                padding-top: 10% ;
+            }
+            &-item2{
+              
+                width: 100%;
+                height: 100%;
+                padding: 10% 2% ;
+                &-text{
+
+                    width: 100%;
+                    height: 100%;
+                   
+                
+                }
+            }
+            &-item3{
+                width: 100%;
+                height: 100%;
+                padding-top: 10% ;
+            }
+        }
+    }
+}
